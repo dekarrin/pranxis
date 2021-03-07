@@ -1,0 +1,17 @@
+* {
+	background-color: #222222;
+	color: #e6e6e6;
+}
+
+html {
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000000;
+}
+
+body {
+	padding: 1px 10px;
+	height: 100%;
+	margin: 0;
+}
