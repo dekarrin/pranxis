@@ -11,7 +11,22 @@ html {
 }
 
 body {
-	padding: 1px 10px;
+	padding: 1px 12px;
 	height: 100%;
 	margin: 0;
+}
+
+h1 {
+	border-bottom: 3px double #e6e6e6;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	border-bottom: 1px dashed #e6e6e6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
