@@ -1,19 +1,19 @@
 * {
-	background-color: #222222;
 	color: #e6e6e6;
 }
 
 html {
-	width: 1080px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #000000;
+	background-color: #030303;
 }
 
 body {
+	font-family: "Verdana", "Helvetica", sans-serif;
+	line-height: 1.4;
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: #222222;
 	padding: 1px 12px;
 	height: 100%;
-	margin: 0;
 }
 
 h1 {
@@ -27,13 +27,68 @@ h2 {
 	border-bottom: 1px dashed #e6e6e6;
 }
 
+h3 {
+	margin-top: 1.5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
+	line-height: 1.0;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.footer {
+ol {
+	margin: 0;
+	padding: 0 0 0 2.5em;
+	display: inline-block;
+}
+
+img {
+	float: right;
+	width: 200px;
+	margin: 0.5em 0 0.5em;
+	border: 2px solid #444444;
+}
+
+img.left {
+	float: left;
+	margin: 0.5em 0.5em 0.5em 0;
+}
+
+.info-box {
 	font-size: 0.7em;
 	font-style: italic;
 	text-align: center;
-	margin-top: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.citation {
+	font-style: italic;
+	font-size: smaller;
+	padding-left: 1.2em;
+}
+
+.toc {
+	background-color: #333333;
+	padding: 0.9em;
+	display: inline-block;
+	border: 3px double #949494;
+}
+
+.toc ol {
+	margin-top: 0.5em;
+}
+
+.icon-link {
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.icon-link img {
+	width: 20px;
+	vertical-align: baseline;
+	float: none;
+	margin: 0;
+	border: none;
 }
